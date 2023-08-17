@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.big-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #fbc7d4, #9897f0);
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  width: 70%;
+}
+.con-left {
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.inputEle {
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-style: none;
+  padding: 5px;
+  outline: none;
+}
+.button {
+  color: white;
+  background-color: #8b5cf6;
+  border-width: 0px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  width: 140px;
+}
+.star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button1 {
+  background-color: transparent;
+  color: #8b5cf6;
+  border-width: 1px;
+  border-color: #8b5cf6;
+  cursor: pointer;
+}
+
+.list {
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
